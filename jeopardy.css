@@ -1,0 +1,53 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+#jeopardy {
+  /* font-size: 15px; */
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  background-color: blue;
+  color: gold;
+  margin:auto;
+  text-transform: uppercase;
+}
+
+/* loader css created with help from W3Schools docs */
+#loader { 
+  border: 16px solid lightgrey;
+  border-top: 16px solid gold;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  
+  position: fixed;
+  top: 25%;
+  left: 50%;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+th, td {
+  border: 1px solid black;
+  padding: 30px;
+  width: 10em;
+}
+
+th {
+  font-size: 20px;
+  color: white;
+
+}
+
+td:hover {
+  cursor: pointer;
+}
